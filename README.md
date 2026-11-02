@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheManishFactor/TheManishFactor/main/banner.svg" alt="Manish Ambasta Banner" width="100%" />
+</p>
 <div align="center">
 
 # 🟡 HELLO, I'M
