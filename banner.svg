@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="420" viewBox="0 0 1500 420" role="img" aria-labelledby="title desc">
+  <title id="title">Manish Ambasta — AI/ML Enthusiast</title>
+  <desc id="desc">Modern black and yellow technology banner with abstract lines and developer identity.</desc>
+
+  <defs>
+    <!-- Dark Black Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".55" stop-color="#111111"/>
+      <stop offset="1" stop-color="#1a1605"/>
+    </linearGradient>
+
+    <!-- Yellow Gold Accent -->
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <!-- Soft Yellow Glow -->
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#FFD700" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="420" rx="28" fill="url(#bg)"/>
+
+  <!-- Yellow Glow -->
+  <ellipse cx="1190" cy="180" rx="470" ry="330" fill="url(#halo)"/>
+
+  <!-- Abstract Technology Lines -->
+  <g fill="none" stroke="url(#glow)" opacity=".42">
+    <path d="M930 440 C1000 160 1250 30 1540 90" stroke-width="2"/>
+    <path d="M870 430 C1010 120 1290 20 1540 40" stroke-width="1.5"/>
+    <path d="M1040 450 C1110 250 1330 150 1540 190" stroke-width="1"/>
+    <circle cx="1210" cy="155" r="112" stroke-width="1.5"/>
+    <circle cx="1210" cy="155" r="158" stroke-width="1" stroke-dasharray="5 12"/>
+  </g>
+
+  <!-- Decorative Yellow Dots -->
+  <g fill="#FFD700" opacity=".85">
+    <circle cx="1070" cy="72" r="3"/>
+    <circle cx="1360" cy="105" r="4"/>
+    <circle cx="1260" cy="315" r="3"/>
+    <circle cx="1450" cy="260" r="2.5"/>
+  </g>
+
+  <!-- Accent Line -->
+  <rect x="88" y="84" width="7" height="250" rx="4" fill="url(#glow)"/>
+
+  <!-- Text -->
+  <text x="130" y="170" fill="#FFD700"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="23" letter-spacing="5">
+    HELLO, I'M
+  </text>
+
+  <text x="126" y="245" fill="#FFFFFF"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="68" font-weight="700">
+    MANISH AMBASTA
+  </text>
+
+  <text x="132" y="300" fill="#FACC15"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="27" letter-spacing="2">
+    AI/ML ENTHUSIAST • SOFTWARE DEVELOPER
+  </text>
+
+  <text x="132" y="350" fill="#A3A3A3"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="19">
+    B.Tech Computer Science | SRM University-AP
+  </text>
+</svg>
